@@ -1,4 +1,3 @@
-# micro-frontend-architecture
 Micro-Frontend Architecture Using React
 
 Overview
@@ -13,7 +12,6 @@ Webpack Module Federation – For sharing components and state across micro-fron
 
 Zustand – A lightweight state management library.
 
-Axios – For API requests (if needed).
 
 Folder Structure
 
@@ -35,10 +33,9 @@ Folder Structure
 
 Setup & Running the Application
 
-1. Clone the repository
+1. Download and Extract ZIP Files
 
-git clone https://github.com/your-repo/micro-frontend-app.git
-cd micro-frontend-app
+Download the ZIP files for host-app, chat-app, and email-app, and extract them into the project directory.
 
 2. Install Dependencies
 
@@ -48,17 +45,17 @@ cd ../email-app && npm install
 
 3. Run Applications
 
-Start the Host App (port 3000):
+Start the Host App first (port 3000):
 
 cd host-app
 npm start
 
-Start the Chat App (port 3001):
+Then start the Chat App (port 3001):
 
 cd chat-app
 npm start
 
-Start the Email App (port 3002):
+Finally, start the Email App (port 3002):
 
 cd email-app
 npm start
